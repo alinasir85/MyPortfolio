@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.32fed52b.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.dff32953.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.dff32953.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.2469b9e2.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.2469b9e2.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.4d80552a.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.4d80552a.js.map",
     "static/css/2.451bf2e4.chunk.css": "/MyPortfolio/static/css/2.451bf2e4.chunk.css",
     "static/js/2.1be19a78.chunk.js": "/MyPortfolio/static/js/2.1be19a78.chunk.js",
     "static/js/2.1be19a78.chunk.js.map": "/MyPortfolio/static/js/2.1be19a78.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.eb8a15dac5bbe4f63de805fbab461906.js": "/MyPortfolio/precache-manifest.eb8a15dac5bbe4f63de805fbab461906.js",
+    "precache-manifest.f57e85a5af472043d99c96d0d6a3f444.js": "/MyPortfolio/precache-manifest.f57e85a5af472043d99c96d0d6a3f444.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
     "static/css/2.451bf2e4.chunk.css.map": "/MyPortfolio/static/css/2.451bf2e4.chunk.css.map",
     "static/css/main.32fed52b.chunk.css.map": "/MyPortfolio/static/css/main.32fed52b.chunk.css.map",
     "static/js/2.1be19a78.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.1be19a78.chunk.js.LICENSE.txt",
     "static/media/index.css": "/MyPortfolio/static/media/vision.4ec81d95.png",
     "static/media/man.svg": "/MyPortfolio/static/media/man.52be3144.svg",
-    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.b915ac8d.pdf"
+    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.253d59d5.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.4d80552a.js",
     "static/css/2.451bf2e4.chunk.css",
     "static/js/2.1be19a78.chunk.js",
     "static/css/main.32fed52b.chunk.css",
-    "static/js/main.dff32953.chunk.js"
+    "static/js/main.2469b9e2.chunk.js"
   ]
 }

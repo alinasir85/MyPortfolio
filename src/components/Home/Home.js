@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./../../index.css";
 import man from "./../../images/man.svg";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
 import Typewriter from "typewriter-effect";
+import resume from '../../assets/resume.pdf';
 
 const contentVariants = {
   initial: {
@@ -22,28 +23,7 @@ const contentVariants = {
   },
 };
 
-const childrenVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
 
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      type: "spring",
-      delay: 0.5,
-    },
-  },
-
-  exit: {
-    opacity: 0,
-    y: -200,
-    transition: { duration: 0.2 },
-  },
-};
 
 const Home = () => {
   // State
@@ -91,7 +71,7 @@ const Home = () => {
           </motion.span>{" "}
         </h1>
         <h2 className="main-content">
-          We are <strong style={{color: '#9c72be'}}> Web Vibe </strong>
+          I'm <strong style={{color: '#9c72be'}}> Ali Nasir </strong>
         </h2>
         {/* Animate Skill Content */}
 
@@ -100,8 +80,8 @@ const Home = () => {
               options={{
                 strings: [
                   "Full Stack Developer",
+                  "Freelancer",
                   "Web Solutions Provider",
-                  "Open Source Contributor",
                 ],
                 autoStart: true,
                 loop: true,
@@ -117,11 +97,11 @@ const Home = () => {
             Contact
           </button>
           <a
-            href="https://github.com/alinasir85?tab=repositories"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="button">GitHub</button>
+            <button className="button">Resume</button>
           </a>
         </div>
       </motion.div>

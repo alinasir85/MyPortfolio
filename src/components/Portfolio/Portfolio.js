@@ -11,12 +11,14 @@ const Portfolio = () => {
       name="portfolio"
       id="portfolio"
     >
-      <h1 className="heading">Projects We Have Built</h1>
+      <h1 className="heading">Projects I Have Built</h1>
       <div className="projects-container">
         {
-          projects.map( project => {
+          projects.map( (project,index) => {
           return (
             <ProjectCard
+                key={index}
+                desc = {project.desc}
                 storeLink={project.storeLink}
                 storeName={project.storeName}
                 githubLink ={project.githubLink}

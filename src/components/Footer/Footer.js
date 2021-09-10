@@ -7,11 +7,11 @@ const Footer = () => {
       <h2>
         Developed by :{" "}
         <a
-          href="https://www.fiverr.com/vibe_web"
+          href="https://www.linkedin.com/in/ali-nasir-04158817a/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Web Vibe
+          Ali Nasir
         </a>{" "}
       </h2>
     </div>

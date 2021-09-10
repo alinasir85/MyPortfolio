@@ -1,5 +1,6 @@
 import React from "react";
 import "./../../index.css";
+import fiverr from '../../assets/img/icons/common/fiverr.png';
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
             <span>Email</span>
           </div>
           <div className="contact-links">
-            <span><a href="mailto:webvibefreelance@gmail.com">webvibefreelance@gmail.com</a></span>
+            <span><a href="mailto:alinasir85@live.com">alinasir85@live.com</a></span>
           </div>
         </div>
 
@@ -27,7 +28,7 @@ const Contact = () => {
             <i className="fas fa-globe"></i>
           </div>
           <div className="contact-text">
-            <span>Social Media</span>
+            <span>Channels</span>
           </div>
           <div className="contact-links">
             {/* github */}
@@ -43,16 +44,16 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.facebook.com/"
+              href="https://www.fiverr.com/vibe_web/"
             >
-              <i className="fab fa-facebook" title="facebook" id="facebook"></i>
+              <img src={fiverr} alt={"fiverr"} style={{width: '50%',paddingTop: '8%'}}/>
             </a>
 
             {/* linkedIn */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/ali-nasir-04158817a/"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
             </a>

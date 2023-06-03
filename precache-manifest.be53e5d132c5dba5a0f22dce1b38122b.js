@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea44717251729c7f38bc40babc5231e7",
+    "revision": "58286bc24bba2ddf215bf5cdd4a4c863",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "bd2f65fac2cfa53c04ff",
-    "url": "/MyPortfolio/static/css/2.451bf2e4.chunk.css"
+    "revision": "bd362a6a1a48ec002fd6",
+    "url": "/MyPortfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "0f32898febc2084e2e53",
-    "url": "/MyPortfolio/static/css/main.32fed52b.chunk.css"
+    "revision": "e94a7a0994fd2784c754",
+    "url": "/MyPortfolio/static/css/main.da6a76c4.chunk.css"
   },
   {
-    "revision": "bd2f65fac2cfa53c04ff",
-    "url": "/MyPortfolio/static/js/2.1be19a78.chunk.js"
+    "revision": "bd362a6a1a48ec002fd6",
+    "url": "/MyPortfolio/static/js/2.6fd31def.chunk.js"
   },
   {
-    "revision": "5b571a43117d7de158db9e221eaa0225",
-    "url": "/MyPortfolio/static/js/2.1be19a78.chunk.js.LICENSE.txt"
+    "revision": "501f379103cbfcb5ff11211dd39a28a2",
+    "url": "/MyPortfolio/static/js/2.6fd31def.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f32898febc2084e2e53",
-    "url": "/MyPortfolio/static/js/main.8904919b.chunk.js"
+    "revision": "e94a7a0994fd2784c754",
+    "url": "/MyPortfolio/static/js/main.5e489ae8.chunk.js"
   },
   {
     "revision": "8e14a5e44e013bce72b0",
@@ -40,8 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/clothing.5cd1aa09.png"
   },
   {
-    "revision": "6f4458c3ed522de639d9430c25f4d984",
-    "url": "/MyPortfolio/static/media/corona.6f4458c3.png"
+    "revision": "10a05e4b3c462c68e0eb71c01668011c",
+    "url": "/MyPortfolio/static/media/ivr.10a05e4b.png"
+  },
+  {
+    "revision": "566128b654a5666981625a33ea8ee863",
+    "url": "/MyPortfolio/static/media/lnmanager.566128b6.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -56,16 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/mob.b6fb55d6.png"
   },
   {
-    "revision": "0e62cbf07409db9ace05f0e8656af321",
-    "url": "/MyPortfolio/static/media/nike.0e62cbf0.png"
-  },
-  {
     "revision": "e9520ac77ce39683185b5e15943019b8",
     "url": "/MyPortfolio/static/media/pic.e9520ac7.jpg"
   },
   {
-    "revision": "7e3e6bd3ab1e6480b3158612033d6ec9",
-    "url": "/MyPortfolio/static/media/resume.7e3e6bd3.pdf"
+    "revision": "5a037da61ccc7806dff8f96261c1eb74",
+    "url": "/MyPortfolio/static/media/resume.5a037da6.pdf"
   },
   {
     "revision": "4ec81d95f0bfa4741b9a78f65568a572",

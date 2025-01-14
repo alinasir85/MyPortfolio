@@ -18,14 +18,11 @@ const Portfolio = () => {
           return (
             <ProjectCard
                 key={index}
-                desc = {project.desc}
-                storeLink={project.storeLink}
-                storeName={project.storeName}
-                githubLink ={project.githubLink}
+                {...project}
             />
           )
          })
-        };
+        }
       </div>
       <a
         rel="noopener noreferrer"
@@ -36,7 +33,7 @@ const Portfolio = () => {
         <button className="button">More Projects</button>
       </a>
     </section>
-  );
-};
+  )
+}
 
 export default Portfolio;

@@ -198,18 +198,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  max-width: 500px;
   text-align: center;
-  /* background: #e7dddd5c; */
   margin: 1rem;
-  /* box-shadow: 0 10px 10px -14px rgba(0,0,0,.2); */
   box-shadow: 3px 2px 10px gray;
-  max-height: 500px;
   border-radius: 20px;
   border: 1px solid transparent;
   transition: all 0.3s ease;
   padding: 3rem;
-  text-align: center;
 }
 
 .servicesPic {
@@ -315,8 +310,8 @@ body {
 }
 
 .projects {
-  height: 23rem;
-  width: 21rem;
+  height: 29rem;
+  width: 33rem;
   margin: 1rem;
   /* background: #e7dddd5c; */
   box-shadow: 3px 2px 10px gray;
@@ -334,54 +329,79 @@ body {
 }
 
 /* Images Proportion (877 * 679)*/
-#coronaTracker {
-  background-image: url("./images/projects/corona.png");
+
+#carbonlink {
+  background-image: url("./images/projects/carbonlink.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#shoeStore {
-  background-image: url("./images/projects/nike.png");
+#rivian {
+  background-image: url("./images/projects/rivian.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
-#ClothingVibe {
-  background-image: url("./images/projects/clothing.png");
+#pickle {
+  background-image: url("./images/projects/pickle.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#BurgerVibe {
-  background-image: url("./images/projects/burger.png");
+#insage {
+  background-image: url("./images/projects/insage.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#VisionVibe {
-  background-image: url("./images/projects/vision.png");
+#gridware {
+  background-image: url("./images/projects/gridware.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#MobVibe {
-  background-image: url("./images/projects/mob.png");
+#rms {
+  background-image: url("./images/projects/rms.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#ChristianMusic {
-  background-image: url("./images/projects/ChristianMusic.png");
+#ivr {
+  background-image: url("./images/projects/ivr.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#Medicure {
-  background-image: url("./images/projects/medicure.png");
+#ch3 {
+  background-image: url("./images/projects/ch3.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#cms {
+  background-image: url("./images/projects/cms.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#lnmngr {
+  background-image: url("./images/projects/lnmngr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#petaid{
+  background-image: url("./images/projects/petaid.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#netsuite{
+  background-image: url("./images/projects/netsuite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .project-links {
   display: flex;
@@ -452,7 +472,8 @@ body {
   flex-direction: column;
   padding: 2rem;
   align-items: center;
-  justify-content: space-evenly;
+  row-gap: 3rem;
+  margin-top: 4rem;
   width: 100%;
   min-height: 100vh;
 }
@@ -475,7 +496,6 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
 }
 
 .cards {

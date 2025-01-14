@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../index.css";
-import fiverr from '../../assets/img/icons/common/fiverr.png';
+import upwork from '../../assets/img/icons/common/upwork.png';
 
 const Contact = () => {
   return (
@@ -44,9 +44,9 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.fiverr.com/vibe_web/"
+              href="https://www.upwork.com/freelancers/aghamuhammadalin"
             >
-              <img src={fiverr} alt={"fiverr"} style={{width: '50%',paddingTop: '8%'}}/>
+              <img src={upwork} alt={"upwork"} style={{width: '44%',paddingTop: '8%', height:'40%'}}/>
             </a>
 
             {/* linkedIn */}

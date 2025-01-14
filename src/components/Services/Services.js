@@ -9,18 +9,19 @@ import { skillsSection } from "../../projects";
 
 const Services = () => {
   return (
-    <section
-      data-aos="zoom-in"
-      className="services-container row"
-      name="services"
-      id="services"
-    >
-      <h1 className="heading">Services I Provide</h1>
-      <h5>{skillsSection.subTitle}</h5>
-      <div className="services-wrapper">
-        <div className="servicesPic">
-          <DisplayLottie animationData={webdev}/>
+      <section
+          data-aos="zoom-in"
+          className="services-container row"
+          name="services"
+          id="services"
+      >
+        <div className="services-wrapper">
+          <div className="servicesPic">
+            <DisplayLottie animationData={webdev}/>
+          </div>
         </div>
+        <h1 className="heading">Services I Provide</h1>
+        <h5>{skillsSection.subTitle}</h5>
         <div className="services">
           <li>
             {
@@ -30,8 +31,7 @@ const Services = () => {
             }
           </li>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 
